@@ -1,0 +1,37 @@
+# Web framework
+fastapi>=0.100.0
+uvicorn>=0.23.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+python-multipart>=0.0.6
+
+# Data processing
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+tqdm>=4.65.0
+
+# Vector embeddings
+sentence-transformers>=2.2.2
+
+# OpenAI (optional, can be used as fallback)
+openai>=1.0.0
+
+# Google Cloud / Vertex AI
+google-cloud-aiplatform>=1.36.0
+vertexai>=0.0.1
+
+# Document processing
+beautifulsoup4>=4.12.0
+markdown>=3.4.0
+pygments>=2.16.0
+
+# GitHub integration
+pygithub>=1.59.0
+
+# Utilities
+aiohttp>=3.8.5
+requests>=2.31.0
+cachetools>=5.3.1
+langchain>=0.0.200
+tenacity>=8.2.3
